@@ -1,12 +1,21 @@
-# 🛡️ DDOS Attack Learning Repository - Cybersecurity Basics
+# 🛡️ CreedStorm - Cybersecurity Learning Repository
 
-Welcome to the **DDOS Attack Learning Repository**, where you can learn the fundamentals of Distributed Denial-of-Service (DDoS) attacks in a safe and controlled environment. This repository is designed for **educational purposes only**, helping beginners understand how DDoS attacks work and how to defend against them.
+Welcome to **CreedStorm**, a beginner-friendly platform to explore the fundamentals of Distributed Denial-of-Service (DDoS) attacks in a controlled and educational setup. This repository introduces you to the **art of simulating and defending against cyber threats** in a secure environment.
 
 > **⚠️ DISCLAIMER:** This repository is for educational and research purposes only. Any misuse of the code to harm, disrupt, or attack unauthorized systems is illegal and unethical. By using this repository, you agree to act responsibly and only test in controlled environments with proper authorization.
 
 ---
 
-## 🎯 What is a DDOS Attack?
+## 🎯 What is CreedStorm?
+
+CreedStorm is a **cyber-themed DDoS simulation tool** designed to:
+- Simulate DDoS-like behavior by opening multiple browser tabs to overload system resources.
+- Provide an interactive **defense mechanism** to stop the simulation.
+- Educate users about cybersecurity threats in a hands-on manner.
+
+---
+
+## 🌐 What is a DDoS Attack?
 
 A **Distributed Denial-of-Service (DDoS) attack** is a type of cyberattack where multiple systems flood the bandwidth or resources of a targeted server, website, or network. The aim is to overwhelm the target, making it inaccessible to legitimate users.
 
@@ -23,26 +32,25 @@ Understanding DDoS attacks is crucial for:
 
 ---
 
-## 🌟 Features of This Repository
+## 🚀 Features of CreedStorm
 
-1. **Script for Simulating DDoS-Like Behavior**:
-   - Opens multiple browser tabs to simulate a resource overload.
-   - Provides a defense mechanism to stop the simulation.
+1. **DDoS Simulation**:
+   - Simulates DDoS-like behavior by opening multiple browser tabs.
+   - Helps understand system performance under stress.
 
 2. **Interactive Defense Mechanism**:
-   - After a minute, a popup window allows users to enter a defense code (`leavemealone`) to stop the simulation.
+   - After every minute, a popup window appears, allowing users to enter the defense code (`leavemealone`) to stop the simulation.
    - Displays a countdown timer in the popup.
 
 3. **Automatic Browser Closure**:
    - On successful defense, all opened browser tabs/windows are automatically closed.
 
-4. **Beginner-Friendly Guide**:
-   - Step-by-step instructions for running the program.
-   - Detailed explanation of the code.
+4. **Standalone Executable**:
+   - Easily convert the Python script into a standalone application using PyInstaller.
 
 ---
 
-## 🚀 Getting Started
+## 📥 Getting Started
 
 ### Prerequisites
 
@@ -60,12 +68,12 @@ Understanding DDoS attacks is crucial for:
 
 ---
 
-### **Steps to Run the Program**
+### **Steps to Run CreedStorm**
 
 1. **Clone the Repository**:
    ```bash
-   git clone [https://github.com/your-username/ddos-attack-learning.git](https://github.com/DularaAbhiranda/DDOS-attack.git)
-   cd ddos-attack
+   git clone https://github.com/DularaAbhiranda/DDOS-attack.git
+   cd DDOS-attack
    ```
 
 2. **Activate the Virtual Environment (Optional)**:
@@ -125,7 +133,7 @@ To convert the Python script into a standalone executable for easy sharing:
 
 - **Authorization**: Use these tools only on systems you own or have explicit permission to test.
 - **Avoid Misuse**: Misusing this program to disrupt unauthorized systems is illegal.
-- **Learning Purpose**: This repository is designed for learning and improving cybersecurity awareness.
+- **Learning Purpose**: CreedStorm is designed for learning and improving cybersecurity awareness.
 
 ---
 
