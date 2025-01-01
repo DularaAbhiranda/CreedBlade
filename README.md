@@ -7,83 +7,99 @@ Welcome to the **DDoS Attack Learning Repository**. This repository is designed 
 ---
 
 ## Contents
-- **Scripts**: Step-by-step Python scripts demonstrating how DDoS attacks are executed.
+- **Scripts**: Python scripts demonstrating controlled DDoS attack simulations and defensive mechanisms.
 - **Explanation**: Documentation explaining the theory, mechanisms, and impact of DDoS attacks.
-- **Defensive Strategies**: Tips and tools to prevent or mitigate DDoS attacks.
+- **Defensive Strategies**: Built-in tools to test and mitigate the simulated attacks.
 - **Lab Setup**: Instructions for setting up a local lab environment to safely experiment and learn.
 
 ---
 
-## How to Use This Repository
+## Features of the Final Script
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/ddos-attack-learning.git](https://github.com/DularaAbhiranda/DDOS-attack.git
-   cd ddos-attack-learning
-   ```
+1. **Tab Opening with Intervals**:
+   - Continuously opens web browser tabs for a specified duration (1-minute intervals).
 
-2. **Read the Documentation**: Begin with the theoretical explanations provided in the `docs/` directory.
+2. **Interactive Defense Mechanism**:
+   - After each interval, a popup window allows the user to enter a defense code (`leavemealone`) to stop the attack.
+   - A countdown timer in the popup window reduces from 30 seconds, giving the user time to respond.
 
-3. **Set Up Your Lab Environment**:
-   - Use virtual machines, containers, or isolated networks for safe experimentation.
-   - Do **NOT** test these scripts on any live or unauthorized systems.
+3. **Automatic Program Termination**:
+   - If the correct code is entered, the script stops running and displays a success message: "You are safe now!"
+   - Automatically closes all browser windows (e.g., Chrome, Firefox) on successful defense.
 
-4. **Run the Scripts**: The scripts are located in the `scripts/` directory. Each script is designed to demonstrate a specific concept of DDoS attacks. Refer to the inline comments for explanations.
-
-5. **Learn Defensive Techniques**: Use the resources provided to understand how to detect and mitigate DDoS attacks.
+4. **Error Handling**:
+   - If an incorrect code is entered, the popup displays an error message and resumes the attack.
 
 ---
 
-## Key Features
-- **Educational Focus**: Learn the fundamentals of DDoS attacks in a controlled and ethical manner.
-- **Step-by-Step Guides**: Detailed explanations accompany each script for easy learning.
-- **Defensive Strategies**: Resources for protecting systems against DDoS attacks.
+## How to Use
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/ddos-attack-learning.git
+   cd ddos-attack-learning
+   ```
+
+2. **Run the Script**:
+   Ensure all dependencies are installed. Then execute the script:
+   ```bash
+   python script_name.py
+   ```
+
+3. **Stop the Attack**:
+   - Wait for the popup window to appear.
+   - Enter the defense code `leavemealone` to stop the attack.
+
+4. **Observe Behavior**:
+   - Monitor the system's performance during the attack.
+   - Analyze the defensive mechanism in action.
 
 ---
 
 ## Prerequisites
-- Basic knowledge of Python programming.
-- Understanding of networking concepts (e.g., IP addresses, protocols).
-- A controlled environment (e.g., virtual machines or local network) for safe testing.
+
+- Python 3.x installed on your system.
+- Required Python packages:
+  ```bash
+  pip install psutil
+  ```
+- A controlled environment (e.g., virtual machine, isolated network) for testing.
 
 ---
 
 ## Legal and Ethical Guidelines
-- Only use these tools and scripts on systems you own or have explicit permission to test.
-- Misuse of these scripts for malicious purposes is strictly prohibited and may result in severe legal consequences.
-- Always follow the laws and regulations of your country when conducting cybersecurity research.
+
+- **Authorization**: Only use these scripts on systems you own or have explicit permission to test.
+- **Avoid Misuse**: Any unauthorized use is strictly prohibited and may result in legal consequences.
+- **Research Focus**: Use this repository to learn and improve your understanding of cybersecurity defense mechanisms.
 
 ---
 
 ## Contribution
-Contributions are welcome! If you have ideas, improvements, or additional content to add, please follow these steps:
+
+Contributions are welcome! To add improvements:
 
 1. Fork the repository.
-2. Create a new branch for your feature:
+2. Create a new branch:
    ```bash
    git checkout -b feature-name
    ```
-3. Commit your changes and push to your branch:
+3. Commit and push your changes:
    ```bash
    git push origin feature-name
    ```
-4. Submit a pull request with a clear description of your changes.
-
----
-
-## Future Plans
-- Add more scripts demonstrating different types of DDoS attacks (e.g., SYN flood, UDP flood).
-- Provide detailed examples of detecting and mitigating DDoS attacks.
-- Include a hands-on guide for setting up monitoring tools like Wireshark.
+4. Open a pull request with a clear description.
 
 ---
 
 ## Acknowledgments
+
 This repository is created to foster learning and awareness about DDoS attacks and their countermeasures. Special thanks to the open-source community for providing valuable resources.
 
 ---
 
 ## License
+
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
