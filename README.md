@@ -64,8 +64,8 @@ Understanding DDoS attacks is crucial for:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/ddos-attack-learning.git
-   cd ddos-attack-learning
+   git clone [https://github.com/your-username/ddos-attack-learning.git](https://github.com/DularaAbhiranda/DDOS-attack.git)
+   cd ddos-attack
    ```
 
 2. **Activate the Virtual Environment (Optional)**:
