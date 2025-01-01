@@ -18,7 +18,7 @@ Welcome to the **DDoS Attack Learning Repository**. This repository is designed 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/ddos-attack-learning.git
+   git clone https://github.com/your-username/ddos-attack-learning.git](https://github.com/DularaAbhiranda/DDOS-attack.git
    cd ddos-attack-learning
    ```
 
